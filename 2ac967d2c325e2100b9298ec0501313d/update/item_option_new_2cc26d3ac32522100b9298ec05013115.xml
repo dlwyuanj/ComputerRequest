@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Computer Request">3731d9b2c3e122100b9298ec05013117</cat_item>
+        <cat_item display_value="New Employee's Computer Requestion">3731d9b2c3e122100b9298ec05013117</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -44,12 +44,12 @@
         <mask_use_encryption>false</mask_use_encryption>
         <name>select_labtop_model</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>100</order>
+        <order>200</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Select labtop model?</question_text>
+        <question_text>computer's model with in CMDB's Model</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -82,14 +82,14 @@
         <sys_created_by>Joel.Zhou</sys_created_by>
         <sys_created_on>2025-05-20 06:44:09</sys_created_on>
         <sys_id>2cc26d3ac32522100b9298ec05013115</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Select labtop model?</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>computer's model with in CMDB's Model</sys_name>
         <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
         <sys_update_name>item_option_new_2cc26d3ac32522100b9298ec05013115</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-21 06:30:16</sys_updated_on>
+        <sys_updated_on>2025-05-22 09:20:08</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
