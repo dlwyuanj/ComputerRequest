@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="sc_req_item" version="2" view="New_Employee">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Requested Item - New Employee" name="sc_req_item" related_list="NULL" sys_domain="global" view="4ebd05fb476962109ca8a3b3416d431e">9f64993747a962109ca8a3b3416d4300</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>sc_task.request_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 08:10:14</sys_created_on>
+            <sys_id>1f64993747a962109ca8a3b3416d4301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 08:10:14</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Requested Item - New Employee" name="sc_req_item" related_list="NULL" sys_domain="global" view="4ebd05fb476962109ca8a3b3416d431e">9f64993747a962109ca8a3b3416d4300</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>sysapproval_approver.sysapproval</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 08:10:14</sys_created_on>
+            <sys_id>1364993747a962109ca8a3b3416d4302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 08:10:14</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Requested Item - New Employee" name="sc_req_item" related_list="NULL" sys_domain="global" view="4ebd05fb476962109ca8a3b3416d431e">9f64993747a962109ca8a3b3416d4300</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>sysapproval_group.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 08:10:14</sys_created_on>
+            <sys_id>1764993747a962109ca8a3b3416d4302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 08:10:14</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Requested Item - New Employee" name="sc_req_item" related_list="NULL" sys_domain="global" view="4ebd05fb476962109ca8a3b3416d431e">9f64993747a962109ca8a3b3416d4300</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>REL:35e23f2a873303002ae97e2526cb0b1e</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 08:10:14</sys_created_on>
+            <sys_id>1b64993747a962109ca8a3b3416d4302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 08:10:14</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Requested Item - New Employee" name="sc_req_item" related_list="NULL" sys_domain="global" view="4ebd05fb476962109ca8a3b3416d431e">9f64993747a962109ca8a3b3416d4300</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>sc_item_option_mtom.request_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 08:10:14</sys_created_on>
+            <sys_id>1f64993747a962109ca8a3b3416d4302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 08:10:14</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Requested Item - New Employee" name="sc_req_item" related_list="NULL" sys_domain="global" view="4ebd05fb476962109ca8a3b3416d431e">9f64993747a962109ca8a3b3416d4300</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>alm_hardware.request_line</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 08:10:14</sys_created_on>
+            <sys_id>1364993747a962109ca8a3b3416d4303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 08:10:14</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Requested Item - New Employee</calculated_name>
+            <filter/>
+            <name>sc_req_item</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 08:10:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f64993747a962109ca8a3b3416d4300</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Requested Item - New Employee</sys_name>
+            <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+            <sys_update_name>sys_ui_related_sc_req_item_New_Employee</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 08:10:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="New Employee" name="New_Employee">4ebd05fb476962109ca8a3b3416d431e</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
