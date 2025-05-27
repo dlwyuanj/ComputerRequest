@@ -3,7 +3,7 @@
         <inactive>false</inactive>
         <order>100</order>
         <published_ref/>
-        <question display_value="Select labtop model?">2cc26d3ac32522100b9298ec05013115</question>
+        <question display_value="computer's model with in CMDB's Model">2cc26d3ac32522100b9298ec05013115</question>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>Joel.Zhou</sys_created_by>
         <sys_created_on>2025-05-20 06:46:27</sys_created_on>

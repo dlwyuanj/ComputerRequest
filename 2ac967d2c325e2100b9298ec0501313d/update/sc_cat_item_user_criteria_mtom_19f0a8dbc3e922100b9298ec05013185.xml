@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
     <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Computer Request">3731d9b2c3e122100b9298ec05013117</sc_cat_item>
+        <sc_cat_item display_value="New Employee's Computer Requestion">3731d9b2c3e122100b9298ec05013117</sc_cat_item>
         <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-21 15:08:25</sys_created_on>

@@ -66,7 +66,7 @@
         <update_guid_history>ae19086eefa5e210aef7897edddf2461:1761658322</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Hardwares">983accaec3a5e2100b9298ec050131ef</sys_audit_delete>
+        <sys_audit_delete display_value="">983accaec3a5e2100b9298ec050131ef</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-19 05:33:31</sys_created_on>

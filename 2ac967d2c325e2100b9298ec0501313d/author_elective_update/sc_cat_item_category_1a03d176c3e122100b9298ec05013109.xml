@@ -41,7 +41,7 @@
         <update_guid_history>1e03d17610e12210c84f1f900dfc4818:-1294545828</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Services.1">4b37e97ec32522100b9298ec05013189</sys_audit_delete>
+        <sys_audit_delete display_value="">4b37e97ec32522100b9298ec05013189</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Joel.Zhou</sys_created_by>
         <sys_created_on>2025-05-20 06:58:31</sys_created_on>

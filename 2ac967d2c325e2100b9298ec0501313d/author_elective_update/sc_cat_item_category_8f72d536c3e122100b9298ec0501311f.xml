@@ -41,7 +41,7 @@
         <update_guid_history>c372d536c4e1221014c749b1fac30823:1537084158</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="New Staff.1">0603d176c3e122100b9298ec05013103</sys_audit_delete>
+        <sys_audit_delete display_value="">0603d176c3e122100b9298ec05013103</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Joel.Zhou</sys_created_by>
         <sys_created_on>2025-05-20 05:30:14</sys_created_on>

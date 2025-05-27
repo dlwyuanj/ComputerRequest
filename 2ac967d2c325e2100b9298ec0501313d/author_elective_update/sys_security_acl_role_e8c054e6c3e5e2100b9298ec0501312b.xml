@@ -41,7 +41,7 @@
         <update_guid_history>60c054e62be5e2105b7de4bc4cf65c2e:-1528068977</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1755511_computer_computerapplication.x_1755511_computer.computerapplication_us">cfe290aac3e5e2100b9298ec05013161</sys_audit_delete>
+        <sys_audit_delete display_value="">cfe290aac3e5e2100b9298ec05013161</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-19 06:11:39</sys_created_on>

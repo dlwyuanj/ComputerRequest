@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Computer Request for new staff">3e16e093c32d22100b9298ec05013158</cat_item>
+        <cat_item display_value="">3e16e093c32d22100b9298ec05013158</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>

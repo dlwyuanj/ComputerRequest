@@ -41,7 +41,7 @@
         <update_guid_history>746a04eed2a5e2106e15068d872f55f8:365530992</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1755511_computer_hardware.x_1755511_computer.hardware_user">4f115ce6c3e5e2100b9298ec050131c6</sys_audit_delete>
+        <sys_audit_delete display_value="">4f115ce6c3e5e2100b9298ec050131c6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-19 06:03:44</sys_created_on>
