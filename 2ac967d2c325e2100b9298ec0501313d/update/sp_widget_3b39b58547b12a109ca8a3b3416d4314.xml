@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function($scope) {
+    /* widget controller */
+    var c = this;
+    c.changeSection = function(val, e) {
+        var g_form = $scope.page.g_form;
+        g_form.setValue('default_section', val > 0 ? val : 1);
+
+        // Remove 'btn-primary' class from all buttons and add 'btn-default' class
+        var list = document.getElementsByClassName("btn");
+        for (var i = 0; i < list.length; i++) {
+            list[i].classList.remove("btn-primary");
+            list[i].classList.add("btn-default");
+        }
+
+        // Add 'btn-primary' class to the selected button
+        if (val > 0) {
+            e.currentTarget.classList.remove("btn-default");
+					  e.currentTarget.classList.add("btn-primary");
+        }
+				else{
+					  e.currentTarget.nextElementSibling.classList.add("btn-primary");
+				}
+    };
+};
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.btn-breadsteps .btn {
+  position: relative;
+  padding: 6px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* 添加边框样式 */
+  border-radius: 4px; /* 添加圆角边框 */
+}
+
+.btn-breadsteps .btn:first-child {
+  padding-left: 10px;
+}
+
+.btn-breadsteps .btn:last-child {
+  padding-right: 18px;
+}
+
+.btn-breadsteps .btn:not(:first-child) {
+  border-left-color: transparent;
+  width: 100px;
+}
+
+.btn-breadsteps .btn:not(:last-child):after,
+.btn-breadsteps .btn:not(:last-child):before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 10px solid #ccc; /* 箭头颜色 */
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  left: 100%;
+  z-index: 1;
+}
+
+.btn-breadsteps .btn:not(:last-child):after {
+  border-left-color: white; /* 箭头覆盖层颜色，通常与背景色相同 */
+  z-index: 2;
+}
+
+.btn-breadsteps .btn:not(:last-child):before {
+  border-left-color: #ccc; /* 箭头底层颜色 */
+  z-index: 0;
+}
+
+.btn-breadsteps .btn.btn-default:not(:last-child):before,
+.btn-breadsteps .btn.btn-default:not(:last-child):after {
+  border-left-color: #777; /* 默认按钮的箭头颜色 */
+}
+
+.btn-breadsteps .btn.btn-default:hover:not(:last-child):before,
+.btn-breadsteps .btn.btn-default:hover:not(:last-child):after {
+  border-left-color: #ccc; /* 鼠标悬停时的箭头颜色 */
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>excercise_2_multi-steps</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Excercise 2_Multi-Steps</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 08:03:31</sys_created_on>
+        <sys_id>3b39b58547b12a109ca8a3b3416d4314</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_name>Excercise 2_Multi-Steps</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sp_widget_3b39b58547b12a109ca8a3b3416d4314</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 07:26:11</sys_updated_on>
+        <template><![CDATA[<div>
+  <div class="btn-group btn-breadsteps" >
+    <a ng-click="c.changeSection(0, $event)" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
+    <a ng-click="c.changeSection(1, $event)" class="btn btn-primary">Step1</a>
+    <a ng-click="c.changeSection(2, $event)" class="btn btn-default">Step2</a>
+    <a ng-click="c.changeSection(3, $event)" class="btn btn-default">Step3</a>
+    <a ng-click="c.changeSection(4, $event)" class="btn btn-default">Step4</a>
+    <a ng-click="c.changeSection(5, $event)" class="btn btn-default">Step5</a>
+  </div>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>3b39b58547b12a109ca8a3b3416d4314</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 08:03:31</sys_created_on>
+        <sys_id>3b39b58547b12a109ca8a3b3416d4317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 08:03:31</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

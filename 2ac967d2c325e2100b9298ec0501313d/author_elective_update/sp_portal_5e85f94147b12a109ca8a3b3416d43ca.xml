@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="DELETE">
+        <alternate_portal/>
+        <communication_channels/>
+        <css_variables/>
+        <dark_theme/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="requests">31ed6a51d7130200a9ad1e173e24d479</homepage>
+        <icon/>
+        <inactive>false</inactive>
+        <kb_knowledge_base/>
+        <kb_knowledge_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</kb_knowledge_page>
+        <login_page/>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <rtl_enabled>false</rtl_enabled>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 07:50:31</sys_created_on>
+        <sys_id>5e85f94147b12a109ca8a3b3416d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Excercise2Multi-Steps</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sp_portal_5e85f94147b12a109ca8a3b3416d43ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 07:50:31</sys_updated_on>
+        <theme/>
+        <title>Excercise2Multi-Steps</title>
+        <ts_index_group/>
+        <url_suffix>af</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="DELETE" query="documentkey=5e85f94147b12a109ca8a3b3416d43ca"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</application>
+        <file_path/>
+        <instance_id>c6c7904beba92610c040fddacad0cdbf</instance_id>
+        <instance_name>dev348728</instance_name>
+        <name>sp_portal_5e85f94147b12a109ca8a3b3416d43ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal"><sp_portal action="INSERT_OR_UPDATE"><alternate_portal/><communication_channels/><css_variables/><dark_theme/><default>false</default><enable_ais>false</enable_ais><enable_certificate_based_authentication>false</enable_certificate_based_authentication><enable_favorites>false</enable_favorites><hide_portal_name>false</hide_portal_name><homepage display_value="requests">31ed6a51d7130200a9ad1e173e24d479</homepage><icon/><inactive>false</inactive><kb_knowledge_base/><kb_knowledge_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</kb_knowledge_page><login_page/><logo/><notfound_page/><quick_start_config/><rtl_enabled>false</rtl_enabled><sc_catalog/><sc_catalog_page/><sc_category_page/><search_application/><search_results_configuration/><sp_chat_queue/><sp_rectangle_menu/><sys_class_name>sp_portal</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-27 07:50:31</sys_created_on><sys_id>5e85f94147b12a109ca8a3b3416d43ca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Excercise2Multi-Steps</sys_name><sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package><sys_policy/><sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope><sys_update_name>sp_portal_5e85f94147b12a109ca8a3b3416d43ca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-27 07:50:31</sys_updated_on><theme/><title>Excercise2Multi-Steps</title><ts_index_group/><url_suffix>af</url_suffix></sp_portal><sys_translated_text action="delete_multiple" query="documentkey=5e85f94147b12a109ca8a3b3416d43ca"/></record_update>]]></payload>
+        <payload_hash>516128767</payload_hash>
+        <record_name>Excercise2Multi-Steps</record_name>
+        <reverted_from/>
+        <source>9b68582b472122109ca8a3b3416d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 07:50:32</sys_created_on>
+        <sys_id>2d46b98147b12a109ca8a3b3416d43bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19710b8be810000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 07:50:32</sys_updated_on>
+        <type>Service Portal</type>
+        <update_guid>2146b98162b12a10f055077153c755bf</update_guid>
+        <update_guid_history>2146b98162b12a10f055077153c755bf:516128767</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Excercise2Multi-Steps">f802464147f12a109ca8a3b3416d4326</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 08:41:49</sys_created_on>
+        <sys_db_object display_value="" name="sp_portal">sp_portal</sys_db_object>
+        <sys_id>97a2af00a9224c24acec31603fa4c724</sys_id>
+        <sys_metadata>5e85f94147b12a109ca8a3b3416d43ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Excercise2Multi-Steps</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_scope_delete display_value="">b43910af71c04f4c886441345b54ee19</sys_scope_delete>
+        <sys_update_name>sp_portal_5e85f94147b12a109ca8a3b3416d43ca</sys_update_name>
+        <sys_update_version display_value="sp_portal_5e85f94147b12a109ca8a3b3416d43ca">2d46b98147b12a109ca8a3b3416d43bf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 08:41:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>If true, portal css would be in rem units</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.service_portal.resize_text.af.enable_rem_conversion</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 07:50:31</sys_created_on>
+        <sys_id>9546fd4147b12a109ca8a3b3416d4361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.service_portal.resize_text.af.enable_rem_conversion</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_properties_9546fd4147b12a109ca8a3b3416d4361</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 07:50:31</sys_updated_on>
+        <type>boolean</type>
+        <value>true</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=9546fd4147b12a109ca8a3b3416d4361"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</application>
+        <file_path/>
+        <instance_id>c6c7904beba92610c040fddacad0cdbf</instance_id>
+        <instance_name>dev348728</instance_name>
+        <name>sys_properties_9546fd4147b12a109ca8a3b3416d4361</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>If true, portal css would be in rem units</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>glide.service_portal.resize_text.af.enable_rem_conversion</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-27 07:50:31</sys_created_on><sys_id>9546fd4147b12a109ca8a3b3416d4361</sys_id><sys_mod_count>0</sys_mod_count><sys_name>glide.service_portal.resize_text.af.enable_rem_conversion</sys_name><sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package><sys_policy/><sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope><sys_update_name>sys_properties_9546fd4147b12a109ca8a3b3416d4361</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-27 07:50:31</sys_updated_on><type>boolean</type><value>true</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=9546fd4147b12a109ca8a3b3416d4361"/></record_update>]]></payload>
+        <payload_hash>-1968205440</payload_hash>
+        <record_name>glide.service_portal.resize_text.af.enable_rem_conversion</record_name>
+        <reverted_from/>
+        <source>9b68582b472122109ca8a3b3416d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 07:50:32</sys_created_on>
+        <sys_id>e146fd4147b12a109ca8a3b3416d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19710b8be140000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 07:50:32</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>e546fd4181b12a10bbcc48d2696c4464</update_guid>
+        <update_guid_history>e546fd4181b12a10bbcc48d2696c4464:-1968205440</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 08:41:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>4e95afca3fe440508be6d63bc92a8c59</sys_id>
+        <sys_metadata>9546fd4147b12a109ca8a3b3416d4361</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.service_portal.resize_text.af.enable_rem_conversion</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_scope_delete display_value="">b43910af71c04f4c886441345b54ee19</sys_scope_delete>
+        <sys_update_name>sys_properties_9546fd4147b12a109ca8a3b3416d4361</sys_update_name>
+        <sys_update_version display_value="sys_properties_9546fd4147b12a109ca8a3b3416d4361">e146fd4147b12a109ca8a3b3416d4365</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 08:41:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

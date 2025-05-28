@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Excercise 2_MuliSteps">3ecaa18147712a109ca8a3b3416d43c5</sc_cat_item>
+        <sc_cat_item display_value="Excercise 2_Multi-Steps_Request">539371cd47712a109ca8a3b3416d432a</sc_cat_item>
         <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-27 07:01:40</sys_created_on>
-        <sys_id>b51b2d8147712a109ca8a3b3416d432e</sys_id>
+        <sys_created_on>2025-05-27 07:41:21</sys_created_on>
+        <sys_id>072439cd47712a109ca8a3b3416d436d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Service Catalog.Excercise 2_MuliSteps</sys_name>
+        <sys_name>Service Catalog.Excercise 2_Multi-Steps</sys_name>
         <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
-        <sys_update_name>sc_cat_item_catalog_b51b2d8147712a109ca8a3b3416d432e</sys_update_name>
+        <sys_update_name>sc_cat_item_catalog_072439cd47712a109ca8a3b3416d436d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-27 07:01:40</sys_updated_on>
+        <sys_updated_on>2025-05-27 07:41:21</sys_updated_on>
     </sc_cat_item_catalog>
 </record_update>

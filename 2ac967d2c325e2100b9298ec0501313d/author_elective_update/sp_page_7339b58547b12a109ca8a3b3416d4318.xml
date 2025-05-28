@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>excercise_2_multi_steps</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 08:03:31</sys_created_on>
+        <sys_id>7339b58547b12a109ca8a3b3416d4318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>excercise_2_multi_steps</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sp_page_7339b58547b12a109ca8a3b3416d4318</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 08:03:31</sys_updated_on>
+        <title>Excercise 2_Multi-Steps - Test Page</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=7339b58547b12a109ca8a3b3416d4318"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</application>
+        <file_path/>
+        <instance_id>c6c7904beba92610c040fddacad0cdbf</instance_id>
+        <instance_name>dev348728</instance_name>
+        <name>sp_page_7339b58547b12a109ca8a3b3416d4318</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><human_readable_url_structure/><id>excercise_2_multi_steps</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-27 08:03:31</sys_created_on><sys_id>7339b58547b12a109ca8a3b3416d4318</sys_id><sys_mod_count>0</sys_mod_count><sys_name>excercise_2_multi_steps</sys_name><sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package><sys_policy/><sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope><sys_update_name>sp_page_7339b58547b12a109ca8a3b3416d4318</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-27 08:03:31</sys_updated_on><title>Excercise 2_Multi-Steps - Test Page</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=7339b58547b12a109ca8a3b3416d4318"/></record_update>]]></payload>
+        <payload_hash>-1681864830</payload_hash>
+        <record_name>excercise_2_multi_steps</record_name>
+        <reverted_from/>
+        <source>9b68582b472122109ca8a3b3416d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 08:03:31</sys_created_on>
+        <sys_id>33397d8547b12a109ca8a3b3416d434c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19710c4a3e60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 08:03:31</sys_updated_on>
+        <type>Page</type>
+        <update_guid>3b39b58519b12a10f06da06eef3c3d1a</update_guid>
+        <update_guid_history>3b39b58519b12a10f06da06eef3c3d1a:-1681864830</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="excercise_2_multi_steps">34114a4147f12a109ca8a3b3416d4370</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 08:37:45</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>1b3af62470114084ac953d79ef459490</sys_id>
+        <sys_metadata>7339b58547b12a109ca8a3b3416d4318</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>excercise_2_multi_steps</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_scope_delete display_value="">b43910af71c04f4c886441345b54ee19</sys_scope_delete>
+        <sys_update_name>sp_page_7339b58547b12a109ca8a3b3416d4318</sys_update_name>
+        <sys_update_version display_value="sp_page_7339b58547b12a109ca8a3b3416d4318">33397d8547b12a109ca8a3b3416d434c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 08:37:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

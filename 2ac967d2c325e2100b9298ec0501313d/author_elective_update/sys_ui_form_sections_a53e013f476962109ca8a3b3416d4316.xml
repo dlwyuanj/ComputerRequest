@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="a53e013f476962109ca8a3b3416d4316" sys_domain="global" table="sc_req_item" version="3">
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sc_req_item</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 07:43:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a53e013f476962109ca8a3b3416d4316</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sc_req_item</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a53e013f476962109ca8a3b3416d4316</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 07:43:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="">4ebd05fb476962109ca8a3b3416d431e</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</application>
+        <file_path/>
+        <instance_id>c6c7904beba92610c040fddacad0cdbf</instance_id>
+        <instance_name>dev348728</instance_name>
+        <name>sys_ui_form_sections_a53e013f476962109ca8a3b3416d4316</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="a53e013f476962109ca8a3b3416d4316" sys_domain="global" table="sc_req_item" version="3"><sys_ui_form action="INSERT_OR_UPDATE"><name>sc_req_item</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-23 07:43:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a53e013f476962109ca8a3b3416d4316</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sc_req_item</sys_name><sys_overrides/><sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package><sys_policy/><sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope><sys_update_name>sys_ui_form_sections_a53e013f476962109ca8a3b3416d4316</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-23 07:43:05</sys_updated_on><sys_user/><view display_value="">4ebd05fb476962109ca8a3b3416d431e</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>1312209663</payload_hash>
+        <record_name>Requested Item</record_name>
+        <reverted_from/>
+        <source>9b68582b472122109ca8a3b3416d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 08:43:34</sys_created_on>
+        <sys_id>6a624ac147f12a109ca8a3b3416d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19710e94d1e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 08:43:34</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>ee624ac19df12a102c3983bb3f63b40c</update_guid>
+        <update_guid_history>ee624ac19df12a102c3983bb3f63b40c:1312209663,5a624ac160f12a1066990ea3a318f001:-901161381,293e013f1069621086869368ff5d121c:-1696546241,693e013f05696210c79f8fb86b9b2718:857731304</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 08:43:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>0c228cb277a449c6af28f5e97dec1591</sys_id>
+        <sys_metadata>a53e013f476962109ca8a3b3416d4316</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sc_req_item</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_parent display_value="Sc Req Item">a8d39e20c8d1221055906c7518aa2d82</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_scope_delete display_value="">b43910af71c04f4c886441345b54ee19</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_a53e013f476962109ca8a3b3416d4316</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_a53e013f476962109ca8a3b3416d4316">6a624ac147f12a109ca8a3b3416d430d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 08:43:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
