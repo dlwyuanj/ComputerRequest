@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>generate_pdf</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>GeneratePdf</name>
+        <onclick>generatePdf()</onclick>
+        <order>50</order>
+        <script><![CDATA[function generatePdf() {
+    try {
+        var sys_id = g_form.getUniqueValue();
+        if (!sys_id) {
+            alert("save the incident");
+            return;
+        }
+        
+        var ga = new GlideAjax('IncidentPDFGenerator');
+        ga.addParam('sysparm_name', 'generatePDF');
+        ga.addParam('sysparm_sys_id', sys_id);
+        ga.getXMLAnswer(function(response) {
+			alert("response"+response);
+            if (response) {
+                g_form.addInfoMessage('PDF created successfully!');
+                top.window.open('https://dev348728.service-now.com' + response, '_blank');
+                g_form.addInfoMessage('PDF downloaded successfully!');
+            } else {
+                g_form.addErrorMessage('Failed to generate PDF');
+            }
+        });
+    } catch (e) {
+        alert("err");
+    }
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 03:13:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>42e8389747b122109ca8a3b3416d4373</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_name>GeneratePdf</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_ui_action_42e8389747b122109ca8a3b3416d4373</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 02:32:05</sys_updated_on>
+        <table>incident</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</application>
+        <file_path/>
+        <instance_id>c6c7904beba92610c040fddacad0cdbf</instance_id>
+        <instance_name>dev348728</instance_name>
+        <name>sys_ui_action_42e8389747b122109ca8a3b3416d4373</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;generate_pdf&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style&gt;primary&lt;/form_style&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;GeneratePdf&lt;/name&gt;&lt;onclick&gt;generatePdf()&lt;/onclick&gt;&lt;order&gt;50&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function generatePdf() {
+    try {
+        var sys_id = g_form.getUniqueValue();
+        if (!sys_id) {
+            alert("save the incident");
+            return;
+        }
+        
+        var ga = new GlideAjax('IncidentPDFGenerator');
+        ga.addParam('sysparm_name', 'generatePDF');
+        ga.addParam('sysparm_sys_id', sys_id);
+        ga.getXMLAnswer(function(response) {
+			alert("response"+response);
+            if (response) {
+                g_form.addInfoMessage('PDF created successfully!');
+                top.window.open('https://dev348728.service-now.com' + response, '_blank');
+                g_form.addInfoMessage('PDF downloaded successfully!');
+            } else {
+                g_form.addErrorMessage('Failed to generate PDF');
+            }
+        });
+    } catch (e) {
+        alert("err");
+    }
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-03 03:13:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;42e8389747b122109ca8a3b3416d4373&lt;/sys_id&gt;&lt;sys_mod_count&gt;38&lt;/sys_mod_count&gt;&lt;sys_name&gt;GeneratePdf&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ComputerRequest" source="x_1755511_computer"&gt;2ac967d2c325e2100b9298ec0501313d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ComputerRequest"&gt;2ac967d2c325e2100b9298ec0501313d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_42e8389747b122109ca8a3b3416d4373&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-04 02:32:05&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1250394414</payload_hash>
+        <record_name>GeneratePdf</record_name>
+        <reverted_from/>
+        <source>9b68582b472122109ca8a3b3416d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 02:32:05</sys_created_on>
+        <sys_id>aa1a7def47f962109ca8a3b3416d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19738c8126a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 02:32:05</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>221a7def9bf9621018358405d18868ae</update_guid>
+        <update_guid_history>221a7def9bf9621018358405d18868ae:1250394414,63b9b9efc9f96210e04f21acfb016404:585734628,9558b96f7af962100f567defc6761cd2:-1535013334,d27439e76ef96210aa664bd06f45cd28:2032397016,7f30b9a32af9621027424793edd95682:1577229340,e48f29235af96210d0dd7af034542e5f:-1362324403,fe9e29afe3b96210b708b060c1cec21d:2139935442,f75ca12ffcb962100c5fca5905cba962:1043606352,56fb2d2f22b96210036b0365f750415b:-1431117530,3958e9e7e1b96210c722e6109c5e52da:576509065,eab1525fc9792210e35d522afe04030c:-293679213,93a1d65fa57922108336a93329735646:-177184603,8791565fc979221061ea4b8701393a61:2034544317,5d00d2db52792210e0a9af924f385b15:289246456,75bfca9bcf792210969f9c7cc12db6e5:-1182931626,2f2cc2979b79221073026be6e7647273:-304208515,cb7a06df0639221089e8188bd0628117:18608703,581a42d34c792210b9dc273aca717ae3:1995413323,73828ad7cd39221094027a4de840f17d:-1932581882,29618ad7f0392210c5b8d5198187e2a4:1972603686,7811ce5303392210b8031e495477f748:259481755,4e80c65779392210dfd4389caccd0a67:-85387093,99208e5373392210df1967c0908dc235:-568632757,6fcbbddf40f5221058a4410971e5db7d:-1679040782,859b75df9df52210802a0d8d5a7280fa:1765623603,fdeaf15fe8f52210367dec5b7a34e856:-661700529,e2e9f51faef522108cacf02c7456885c:-1427721601,e5b9f9db17f52210176a4d2a3caedf80:-708776677,3ee83d9b5bf52210ccd5a85f20a32a70:-1290404227,bf86f5d7cbf52210670b4f768a7eb8b3:-997601549,6046b997fef52210d340eb054809df11:-2006213841,d6a5bd9762f522103a86d4ca77e20c78:-682359003,94557997d5f52210fd596453eefb9ef5:617016364,1189a11771b522108b98d025948d3cea:892033959,7f47e1536cb522107514d50d516efeb3:87508923,2b37a51345b5221063d1c6f277d8aed4:2050167583,7327a9934fb522100dae41435451cd8d:614646302,bc5b745b41b12210418379209eb83574:-886623333,d6e9b8970cb1221019dbf6fbfe9bf44e:-737028811</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 05:11:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>9ac2ae1ea5284108a76f88acd3669d49</sys_id>
+        <sys_metadata>42e8389747b122109ca8a3b3416d4373</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GeneratePdf</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_parent display_value="Incident">dd631e6cc891221055906c7518aa2dce</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_scope_delete display_value="">b43910af71c04f4c886441345b54ee19</sys_scope_delete>
+        <sys_update_name>sys_ui_action_42e8389747b122109ca8a3b3416d4373</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_42e8389747b122109ca8a3b3416d4373">aa1a7def47f962109ca8a3b3416d43ae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 05:11:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1755511_computer.IncidentPDFGenerator</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>IncidentPDFGenerator</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var IncidentPDFGenerator = Class.create();
+IncidentPDFGenerator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    generatePDF: function() {
+        //alert('script include');
+        var sys_id = this.getParameter('sysparm_sys_id');
+        var incidentGR = new GlideRecord('incident');
+        if (incidentGR.get(sys_id)) {
+            var pageSize = new sn_pdfgeneratorutils.PdfPage("A4");
+            var document = new sn_pdfgeneratorutils.Document(pageSize);
+            var whiteColor = sn_pdfgeneratorutils.Color([1, 1, 1]);
+            var greyColor = sn_pdfgeneratorutils.Color([0.8, 0.8, 0.8]);
+            var headerBgColor = new sn_pdfgeneratorutils.Color([0.4, 0.6, 0.8]);
+
+            // Query the Incident table
+            var gr = new GlideRecord("incident");
+            gr.query();
+
+            // declare table by providing width array and Boolean for large table
+            var table = new sn_pdfgeneratorutils.Table(true, [70, 200], false);
+
+            var headerStyle = new sn_pdfgeneratorutils.Style;
+            headerStyle.setBackgroundColor(headerBgColor);
+            headerStyle.setTextAlignment("text-center");
+            headerStyle.setBold();
+            headerStyle.setFontColor(whiteColor);
+            table.setHeaderStyle(headerStyle);
+            table.setHeaderStyle(headerStyle);
+
+            var nParagraph = new _sn_pdfgeneratorutils.Paragraph("Number");
+            var sParagraph = new _sn_pdfgeneratorutils.Paragraph("Short Description");
+
+            var hdrCell1 = new _sn_pdfgeneratorutils.Cell;
+            var hdrCell2 = new _sn_pdfgeneratorutils.Cell;
+
+            hdrCell1.addParagraph(nParagraph);
+            hdrCell2.addParagraph(sParagraph);
+
+            table.addHeaderCell(hdrCell1);
+            table.addHeaderCell(hdrCell2);
+
+            var row = 0;
+
+            while (gr.next()) {
+                var numCell = new sn_pdfgeneratorutils.Cell;
+                var sdCell = new sn_pdfgeneratorutils.Cell;
+                var numberParagraph = new sn_pdfgeneratorutils.Paragraph(gr.number);
+                var sdParagraph = new sn_pdfgeneratorutils.Paragraph(gr.short_description);
+                numCell.addParagraph(numberParagraph);
+                sdCell.addParagraph(sdParagraph);
+                if (row % 2 == 1) {
+                    table.setDefaultBackgroundColor(greyColor);
+                } else {
+                    table.setDefaultBackgroundColor(whiteColor);
+                }
+                table.addCell(numCell);
+                table.addCell(sdCell);
+                if (row % 2 == 1) {
+                    table.setDefaultBackgroundColor(greyColor);
+                } else {
+                    table.setDefaultBackgroundColor(whiteColor);
+                }
+                table.addCell(numCell);
+                table.addCell(sdCell);
+
+                row = row + 1;
+            }
+            gs.error("sn_pdfgeneratorutils5");
+            document.addTable(table);
+            var attID = document.saveAsAttachment("incident", sys_id, "SampleGenerationTest" + sys_id + ".pdf");
+            gs.error("sn_pdfgeneratorutils7");
+            return "/sys_attachment.do?sys_id=" + attID;
+        }
+        return "";
+    },
+    type: 'IncidentPDFGenerator'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 02:29:50</sys_created_on>
+        <sys_id>a4393d6f47f962109ca8a3b3416d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IncidentPDFGenerator</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_script_include_a4393d6f47f962109ca8a3b3416d4365</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 02:29:50</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</application>
+        <file_path/>
+        <instance_id>c6c7904beba92610c040fddacad0cdbf</instance_id>
+        <instance_name>dev348728</instance_name>
+        <name>sys_script_include_a4393d6f47f962109ca8a3b3416d4365</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1755511_computer.IncidentPDFGenerator&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;IncidentPDFGenerator&lt;/name&gt;&lt;sandbox_callable&gt;true&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var IncidentPDFGenerator = Class.create();
+IncidentPDFGenerator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    generatePDF: function() {
+        //alert('script include');
+        var sys_id = this.getParameter('sysparm_sys_id');
+        var incidentGR = new GlideRecord('incident');
+        if (incidentGR.get(sys_id)) {
+            var pageSize = new sn_pdfgeneratorutils.PdfPage("A4");
+            var document = new sn_pdfgeneratorutils.Document(pageSize);
+            var whiteColor = sn_pdfgeneratorutils.Color([1, 1, 1]);
+            var greyColor = sn_pdfgeneratorutils.Color([0.8, 0.8, 0.8]);
+            var headerBgColor = new sn_pdfgeneratorutils.Color([0.4, 0.6, 0.8]);
+
+            // Query the Incident table
+            var gr = new GlideRecord("incident");
+            gr.query();
+
+            // declare table by providing width array and Boolean for large table
+            var table = new sn_pdfgeneratorutils.Table(true, [70, 200], false);
+
+            var headerStyle = new sn_pdfgeneratorutils.Style;
+            headerStyle.setBackgroundColor(headerBgColor);
+            headerStyle.setTextAlignment("text-center");
+            headerStyle.setBold();
+            headerStyle.setFontColor(whiteColor);
+            table.setHeaderStyle(headerStyle);
+            table.setHeaderStyle(headerStyle);
+
+            var nParagraph = new _sn_pdfgeneratorutils.Paragraph("Number");
+            var sParagraph = new _sn_pdfgeneratorutils.Paragraph("Short Description");
+
+            var hdrCell1 = new _sn_pdfgeneratorutils.Cell;
+            var hdrCell2 = new _sn_pdfgeneratorutils.Cell;
+
+            hdrCell1.addParagraph(nParagraph);
+            hdrCell2.addParagraph(sParagraph);
+
+            table.addHeaderCell(hdrCell1);
+            table.addHeaderCell(hdrCell2);
+
+            var row = 0;
+
+            while (gr.next()) {
+                var numCell = new sn_pdfgeneratorutils.Cell;
+                var sdCell = new sn_pdfgeneratorutils.Cell;
+                var numberParagraph = new sn_pdfgeneratorutils.Paragraph(gr.number);
+                var sdParagraph = new sn_pdfgeneratorutils.Paragraph(gr.short_description);
+                numCell.addParagraph(numberParagraph);
+                sdCell.addParagraph(sdParagraph);
+                if (row % 2 == 1) {
+                    table.setDefaultBackgroundColor(greyColor);
+                } else {
+                    table.setDefaultBackgroundColor(whiteColor);
+                }
+                table.addCell(numCell);
+                table.addCell(sdCell);
+                if (row % 2 == 1) {
+                    table.setDefaultBackgroundColor(greyColor);
+                } else {
+                    table.setDefaultBackgroundColor(whiteColor);
+                }
+                table.addCell(numCell);
+                table.addCell(sdCell);
+
+                row = row + 1;
+            }
+            gs.error("sn_pdfgeneratorutils5");
+            document.addTable(table);
+            var attID = document.saveAsAttachment("incident", sys_id, "SampleGenerationTest" + sys_id + ".pdf");
+            gs.error("sn_pdfgeneratorutils7");
+            return "/sys_attachment.do?sys_id=" + attID;
+        }
+        return "";
+    },
+    type: 'IncidentPDFGenerator'
+});
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-04 02:29:50&lt;/sys_created_on&gt;&lt;sys_id&gt;a4393d6f47f962109ca8a3b3416d4365&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;IncidentPDFGenerator&lt;/sys_name&gt;&lt;sys_package display_value="ComputerRequest" source="x_1755511_computer"&gt;2ac967d2c325e2100b9298ec0501313d&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="ComputerRequest"&gt;2ac967d2c325e2100b9298ec0501313d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_a4393d6f47f962109ca8a3b3416d4365&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-04 02:29:50&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>508278137</payload_hash>
+        <record_name>IncidentPDFGenerator</record_name>
+        <reverted_from/>
+        <source>9b68582b472122109ca8a3b3416d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 02:29:51</sys_created_on>
+        <sys_id>f999b5ef47f962109ca8a3b3416d439b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19738c606590000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 02:29:51</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>fd99b5ef60f96210efd5436f9f1a039a</update_guid>
+        <update_guid_history>fd99b5ef60f96210efd5436f9f1a039a:508278137</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 05:11:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>4cd9e43c90ff4bed987c42e3880e7671</sys_id>
+        <sys_metadata>a4393d6f47f962109ca8a3b3416d4365</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IncidentPDFGenerator</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_scope_delete display_value="">b43910af71c04f4c886441345b54ee19</sys_scope_delete>
+        <sys_update_name>sys_script_include_a4393d6f47f962109ca8a3b3416d4365</sys_update_name>
+        <sys_update_version display_value="sys_script_include_a4393d6f47f962109ca8a3b3416d4365">f999b5ef47f962109ca8a3b3416d439b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 05:11:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
