@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>2088612b47b962109ca8a3b3416d43be</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="syslog_app_scope">
+    <syslog_app_scope action="INSERT_OR_UPDATE">
+        <context_map>{"execution":"ac88612b47b962109ca8a3b3416d43ba","_system_id":"app128030.aus191.service-now.com:dev348728001","_logged_in_user":"admin","_script_record":"7f79580c53201210d84cddeeff7b1222","record_sys_id":"16ce5a2cc895221055906c7518aa2d3c","_scope":"sn_nowassist_diagn","table_name":"sys_trigger","_txid":"2c88692b47b9","_session_id":"glide.scheduler.worker.4","caller":"com.glide.schedule_v2.SchedulerWorkerThread","job_name":"Generate Now Assist Troubleshooting Notifications","_logger_name":"sn_nowassist_diagn.monitor","_user":"admin","_is_impersonating":"false","_script_table":"sys_script_include"}</context_map>
+        <level>0</level>
+        <message>*** Script: [Monitor execution: ac88612b47b962109ca8a3b3416d43ba] Scheduled job ending. TIme taken: 85 ms</message>
+        <script_artifact>7f79580c53201210d84cddeeff7b1222</script_artifact>
+        <script_artifact_table>sys_script_include</script_artifact_table>
+        <sequence>1973881b2d30000001</sequence>
+        <source>sn_nowassist_diagn</source>
+        <source_application_family/>
+        <source_package display_value="Now Assist Troubleshooting" source="sn_nowassist_diagn">7b67ecf7437042105947644c7ab8f21b</source_package>
+        <sys_class_name>syslog_app_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 01:15:13</sys_created_on>
+        <sys_id>2088612b47b962109ca8a3b3416d43be</sys_id>
+        <sys_scope display_value="Now Assist Troubleshooting">7b67ecf7437042105947644c7ab8f21b</sys_scope>
+    </syslog_app_scope>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 01:21:45</sys_created_on>
+        <sys_id>980aed6b47b962109ca8a3b3416d43ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2025-06-04 09:15:13</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_metadata_link_980aed6b47b962109ca8a3b3416d43ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 01:21:45</sys_updated_on>
+        <tablename>syslog</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a905e1e347b962109ca8a3b3416d43b0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="syslog_app_scope">
+    <syslog_app_scope action="INSERT_OR_UPDATE">
+        <context_map>{"_system_id":"app128030.aus191.service-now.com:dev348728001","_logged_in_user":"system","_script_record":"e03713a4a3100210385a2780f31e61ce","record_sys_id":"c29f9620c8d5221055906c7518aa2d9a","_scope":"sn_pa_designer","table_name":"sys_trigger","_txid":"2905ede347b9","_session_id":"glide.scheduler.worker.3","caller":"com.glide.schedule_v2.SchedulerWorkerThread","job_name":"Playbook Auto Archive Scheduler","_logger_name":"sn_pa_designer.sysauto_script.e03713a4a3100210385a2780f31e61ce","_user":"system","_is_impersonating":"false","_script_table":"sysauto_script"}</context_map>
+        <level>0</level>
+        <message>Playbook Auto Archive Scheduler running...</message>
+        <script_artifact>e03713a4a3100210385a2780f31e61ce</script_artifact>
+        <script_artifact_table>sysauto_script</script_artifact_table>
+        <sequence>1973873c3660000001</sequence>
+        <source>sn_pa_designer</source>
+        <source_application_family/>
+        <source_package display_value="Process Automation Designer" source="sn_pa_designer">1293c996ad48c7d88400c13afef3cdff</source_package>
+        <sys_class_name>syslog_app_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 01:00:00</sys_created_on>
+        <sys_id>a905e1e347b962109ca8a3b3416d43b0</sys_id>
+        <sys_scope display_value="Process Automation Designer">1293c996ad48c7d88400c13afef3cdff</sys_scope>
+    </syslog_app_scope>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 01:21:46</sys_created_on>
+        <sys_id>280a21ab47b962109ca8a3b3416d4334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2025-06-04 09:00:00</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_metadata_link_280a21ab47b962109ca8a3b3416d4334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 01:21:46</sys_updated_on>
+        <tablename>syslog</tablename>
+    </sys_metadata_link>
+</record_update>

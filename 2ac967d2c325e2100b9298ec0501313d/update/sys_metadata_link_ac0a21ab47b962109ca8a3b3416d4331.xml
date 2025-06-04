@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a7e9ad6b47b962109ca8a3b3416d432f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="syslog">
+    <syslog action="INSERT_OR_UPDATE">
+        <context_map>{"_system_id":"app128030.aus191.service-now.com:dev348728001","caller":"com.glide.schedule_v2.SchedulerWorkerThread","_logged_in_user":"system","job_name":"Email Digest","record_sys_id":"3dda8c257f2332007f005212bdfa914c","_user":"system","_is_impersonating":"false","table_name":"sys_trigger","_session_id":"glide.scheduler.worker.6","_txid":"efe9ad6b47b9"}</context_map>
+        <level>0</level>
+        <message>Email Digest complete processed=0 error=0 elapsedms=3</message>
+        <sequence>1973887612d0000001</sequence>
+        <source>EmailDigest</source>
+        <source_application_family/>
+        <source_package/>
+        <sys_class_name>syslog</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-06-04 01:21:25</sys_created_on>
+        <sys_id>a7e9ad6b47b962109ca8a3b3416d432f</sys_id>
+    </syslog>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 01:21:46</sys_created_on>
+        <sys_id>ac0a21ab47b962109ca8a3b3416d4331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2025-06-04 09:21:25</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_metadata_link_ac0a21ab47b962109ca8a3b3416d4331</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 01:21:46</sys_updated_on>
+        <tablename>syslog</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1755511_computer.excercise3PDFGenerator</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>excercise3PDFGenerator</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[// Script Include: excercise3PDFGenerator
+var excercise3PDFGenerator = Class.create();
+excercise3PDFGenerator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    // initialize: function() {
+    // },
+    generatePDF: function() {
+		var incidentSysId = this.getParameter('sysparm_sys_id');
+        // Here you can add the logic to generate the PDF
+        // For example, use an HTML-to-PDF library to generate the PDF
+		gs.log("PDF generated successfully for incident: " + incidentSysId, "excercise3PDFGenerator");
+        //var pdfContent = this.generatePdfContent(incidentSysId);
+		var content = "<h1>Incident Details</h1>";
+            content += "<p>Number: " +  "</p>";
+            content += "<p>Short description: "  + "</p>";
+            content += "<p>State: "  + "</p>";
+        var pdfFile = new File("incidentpdf.pdf", content);
+		gs.log("PDF generated successfully for incident: " + incidentSysId, "excercise3PDFGenerator");
+        return pdfFile.getURL();
+    },
+    generatePdfContent: function(incidentSysId) {
+        // Here you can add the logic to generate the PDF
+        // For example，get incident infos
+		gs.log("generatePdfContent: 001", "generatePdfContent");
+        var incidentGr = new GlideRecord('incident');
+        if (incidentGr.get(incidentSysId)) {
+            var content = "<h1>Incident Details</h1>";
+            content += "<p>Number: " + incidentGr.number + "</p>";
+            content += "<p>Short description: " + incidentGr.short_description + "</p>";
+            content += "<p>State: " + incidentGr.state + "</p>";
+            // more fields
+			gs.log("generatePdfContent: OK", "generatePdfContent");
+            return content;
+        }
+		gs.log("generatePdfContent: error", "generatePdfContent");
+        return "";
+    },
+    type: 'excercise3PDFGenerator'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 07:32:21</sys_created_on>
+        <sys_id>7a64795747f522109ca8a3b3416d4303</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>excercise3PDFGenerator</sys_name>
+        <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
+        <sys_update_name>sys_script_include_7a64795747f522109ca8a3b3416d4303</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 02:24:30</sys_updated_on>
+    </sys_script_include>
+</record_update>
