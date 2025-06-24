@@ -65,7 +65,7 @@
 }
 
 .btn-breadsteps .btn:not(:last-child):after {
-  border-left-color: white; /* 箭头覆盖层颜色，通常与背景色相同 */
+  //border-left-color: white; /* 箭头覆盖层颜色，通常与背景色相同 */
   z-index: 2;
 }
 
@@ -103,14 +103,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-27 08:03:31</sys_created_on>
         <sys_id>3b39b58547b12a109ca8a3b3416d4314</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_name>Excercise 2_Multi-Steps</sys_name>
         <sys_package display_value="ComputerRequest" source="x_1755511_computer">2ac967d2c325e2100b9298ec0501313d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ComputerRequest">2ac967d2c325e2100b9298ec0501313d</sys_scope>
         <sys_update_name>sp_widget_3b39b58547b12a109ca8a3b3416d4314</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-28 08:40:08</sys_updated_on>
+        <sys_updated_on>2025-06-23 09:28:31</sys_updated_on>
         <template><![CDATA[<div>
   <div class="btn-group btn-breadsteps" >
     <a ng-click="c.changeSection(0, $event)" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
